@@ -104,5 +104,6 @@ body {
     
     .content .title, .content .timer {
         font-size: 2rem;
+        text-align: center;
     }
 }
