@@ -1,0 +1,210 @@
+/*body, html {*/
+/*    height: 100%;*/
+/*    margin: 0;*/
+    /*background-image: url(images/TeeshowIconWht.JPG);*/
+    /*background-position: center center;*/
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+    /*position: relative;*/
+/*    background-color: #fff;*/
+/*}*/
+
+
+/*.bgimg {*/
+/*    color: black;*/
+/*    font-family: "Courier New", Courier, monospace;*/
+/*    font-size: 25px;*/
+/*}*/
+
+/*.topleft {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 35px;*/
+/*}*/
+
+/*.thumbnail {*/
+/*  height: 100px;*/
+/*  width: 300px;*/
+/*}*/
+
+
+/*.bottomleft {*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    left: 40px;*/
+/*}*/
+
+/*.bottomright {*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    right: 35px;*/
+/*}*/
+
+/*.logo {*/
+/*  height: 150px;*/
+/*  width: 150px;*/
+/*}*/
+
+/*.middleright {*/
+/*    position: absolute;*/
+/*    color: black;*/
+/*    top: 50%;*/
+/*    left: 85%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    text-align: center;*/
+/*}*/
+
+/*hr {*/
+/*    margin: auto;*/
+/*    width: 40%;*/
+/*}*/
+
+/*.timage, .tourimage, .eventimage {*/
+/*   position: absolute;*/
+/*    color: black;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    text-align: center;*/
+/*}*/
+
+
+/*.middlepic {*/
+/*  height: 600px;*/
+/*  width: 350px;*/
+/*}*/
+
+/*.eventposition {*/
+/*  height: 600px;*/
+/*  width: 650px;*/
+/*}*/
+
+/*.tourposition {*/
+/*  height: 600px;*/
+/*  width: 650px;*/
+/*}*/
+
+
+
+/*nav {*/
+/*  width: 28%;*/
+/*  overflow: hidden;*/
+/*  float: right;*/
+/*}*/
+
+/*nav ul {*/
+/*  width: 600px;*/
+/*  margin: auto;*/
+/*  display: block;*/
+/*  list-style-type: none;*/
+/*}*/
+
+/*nav ul li {*/
+/*  width: 15%;*/
+/*  float: left;*/
+/*  overflow: auto;*/
+/*  text-align: center;*/
+/*}*/
+
+/*nav a {*/
+/*  color: #000;*/
+/*  padding-top: 5px;*/
+/*  padding-bottom: 5px;*/
+/*  display: block;*/
+/*  text-decoration: none;*/
+/*}*/
+
+
+/*.left {*/
+/*  background-color: #ddd;*/
+/*  display: table-cell;*/
+/*  padding: 15px;*/
+/*}*/
+
+/*.right {*/
+/*  background-color: yellow;*/
+/*  display: table-cell;*/
+/*}*/
+
+
+
+/*main {*/
+/*  padding: 10px;*/
+/*  padding-top: 30px;*/
+/*  height: 100%;*/
+/*  margin: auto;*/
+/*  margin-top: 20px;*/
+/*  border: 1px solid #000;*/
+/*}*/
+
+/*.admin {*/
+/*  padding: 5vw;*/
+/*  width: 60vw;*/
+/*  display: table;*/
+/*}*/
+
+/*form {*/
+/*  border: 3px solid #000;*/
+/*  padding: 10px;*/
+/*}*/
+
+/*.logininput {*/
+/*  width: 100%;*/
+/*  padding: 12px 20px;*/
+/*  margin: 8px 0;*/
+/*  display: inline-block;*/
+/*  border: 1px solid #ccc;*/
+/*  box-sizing: border-box;*/
+/*}*/
+
+/*button {*/
+/*  background-color: #4caf50;*/
+/*  color: white;*/
+/*  padding: 14px 20px;*/
+/*  margin: 8px 0;*/
+/*  border: none;*/
+/*  cursor: pointer;*/
+/*  width: 100%;*/
+/*}*/
+
+/*button:hover {*/
+/*  opacity: 0.8;*/
+/*}*/
+
+/*.cancelbtn {*/
+/*  width: auto;*/
+/*  padding: 14px 20px;*/
+/*  background-color: #f44336;*/
+/*}*/
+
+/*.loginform {*/
+/*  padding: 16px;*/
+/*}*/
+
+/*span.psw {*/
+/*  float: right;*/
+/*  padding-top: 16px;*/
+/*}*/
+
+
+body {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 0;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.showcase::after {
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/TeeshowIconWht.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    transition: all 1000ms;
+}
+
